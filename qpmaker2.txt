@@ -1,0 +1,5 @@
+["Write any 4 attributes of Series object",
+"Differentiate between Series and DataFrame",
+"How many types of data structure in Pandas.Explain any two",
+"Write any 4 attributes of DataFrame object",
+"Why you need to use Pandas"]

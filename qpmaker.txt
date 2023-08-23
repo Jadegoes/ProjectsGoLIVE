@@ -1,0 +1,7 @@
+["What is Pandas or Python Pandas",
+"Write full form of Pandas",
+"How many types of data structure in Pandas",
+"What do you mean by data structure",
+"Why you need to use Pandas",
+"How can you install pandas",
+"Who is the author Python Pandas"]
