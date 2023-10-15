@@ -67,6 +67,7 @@ def user():
                 else:
                     used.append(use)
                     print(Fore.MAGENTA + use)
+                    SATQ.append(use)
         print(Fore.RED + "Done ;)")
     elif choice==["2","ok"]:
         import random
@@ -88,6 +89,7 @@ def user():
                 else:
                     used.append(use)
                     print(Fore.MAGENTA + use)
+                    LATQ.append(use)
         print(Fore.RED + "Done ;)")
     else:
         import random
