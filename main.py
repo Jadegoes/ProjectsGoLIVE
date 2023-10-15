@@ -205,13 +205,15 @@ used = []
 user()
 # Data print
 for i in secname:
-    pdf.setFillColor(colors.black)
-    pdf.setFont("Mainfont", 16)
-    pdf.drawCentredString(297.5, loc, i)
-    loc = loc - 30
+    if(len(ques[i])!=0):
+        pdf.setFillColor(colors.black)
+        pdf.setFont("Mainfont", 16)
+        pdf.drawCentredString(297.5, loc, i)
+        loc = loc - 30
 
-    cursormoves1(pdf, loc, ques[i])
-    loc = int(loc)
-    loc = loc - 30
-
+        cursormoves1(pdf, loc, ques[i])
+        loc = int(loc)
+        loc = loc - 30
+    else:
+        continue
 pdf.save()
